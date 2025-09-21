@@ -1,0 +1,141 @@
+{
+    "Andhra Pradesh": [
+        {"text": "Andhra Pradesh government is giving free laptops to all students (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "AP CM declared that rice will be free for every household next month (Fake).", "prediction": "Fake", "confidence": 0.88}
+    ],
+    "Arunachal Pradesh": [
+        {"text": "Arunachal Pradesh government gives free smartphones to school children (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Free electricity will be provided for all homes in Arunachal Pradesh (Fake).", "prediction": "Fake", "confidence": 0.87}
+    ],
+    "Assam": [
+        {"text": "Assam announces that all students will get gold coins (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Assam government declared free cars for senior citizens (Fake).", "prediction": "Fake", "confidence": 0.88}
+    ],
+    "Bihar": [
+        {"text": "Bihar CM announced free laptops for all teachers (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Bihar government giving free houses to everyone (Fake).", "prediction": "Fake", "confidence": 0.88}
+    ],
+    "Chhattisgarh": [
+        {"text": "Chhattisgarh declares free smartphones for all farmers (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Free healthcare for every resident in Chhattisgarh (Fake).", "prediction": "Fake", "confidence": 0.87}
+    ],
+    "Goa": [
+        {"text": "Goa government provides free vacations abroad for students (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Free cars to all households in Goa (Fake).", "prediction": "Fake", "confidence": 0.88}
+    ],
+    "Gujarat": [
+        {"text": "Gujarat CM announced free gold coins to all students (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Gujarat government gives free apartments to everyone (Fake).", "prediction": "Fake", "confidence": 0.88}
+    ],
+    "Haryana": [
+        {"text": "Haryana provides free laptops to farmers (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Haryana CM declared free electricity for all homes (Fake).", "prediction": "Fake", "confidence": 0.87}
+    ],
+    "Himachal Pradesh": [
+        {"text": "Himachal government giving free vacations to students (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Himachal CM announced free medical treatment for all citizens (Fake).", "prediction": "Fake", "confidence": 0.87}
+    ],
+    "Jharkhand": [
+        {"text": "Jharkhand government will give free laptops to teachers (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Free housing announced for every resident in Jharkhand (Fake).", "prediction": "Fake", "confidence": 0.87}
+    ],
+    "Karnataka": [
+        {"text": "Karnataka CM announced free smartphones to all students (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Karnataka government provides free gold coins for farmers (Fake).", "prediction": "Fake", "confidence": 0.88}
+    ],
+    "Kerala": [
+        {"text": "Kerala government gives free cars to senior citizens (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Kerala CM announces free houses for students (Fake).", "prediction": "Fake", "confidence": 0.88}
+    ],
+    "Madhya Pradesh": [
+        {"text": "MP government providing free laptops to students (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Madhya Pradesh CM declares free gold coins for farmers (Fake).", "prediction": "Fake", "confidence": 0.88}
+    ],
+    "Maharashtra": [
+        {"text": "Maharashtra announces free smartphones for all school children (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Maharashtra government giving free cars to residents (Fake).", "prediction": "Fake", "confidence": 0.88}
+    ],
+    "Manipur": [
+        {"text": "Manipur government provides free laptops to students (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "CM Manipur announced free vacations for all citizens (Fake).", "prediction": "Fake", "confidence": 0.87}
+    ],
+    "Meghalaya": [
+        {"text": "Meghalaya announces free houses for students (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Meghalaya government giving free cars to everyone (Fake).", "prediction": "Fake", "confidence": 0.88}
+    ],
+    "Mizoram": [
+        {"text": "Mizoram CM announced free smartphones to all students (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Mizoram government giving free gold coins to residents (Fake).", "prediction": "Fake", "confidence": 0.87}
+    ],
+    "Nagaland": [
+        {"text": "Nagaland government gives free laptops to students (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Nagaland CM announces free vacations abroad (Fake).", "prediction": "Fake", "confidence": 0.87}
+    ],
+    "Odisha": [
+        {"text": "Odisha government announced free smartphones for all students (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Odisha CM declared free cars to residents (Fake).", "prediction": "Fake", "confidence": 0.88}
+    ],
+    "Punjab": [
+        {"text": "Punjab government gives free laptops to students (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Punjab CM announces free gold coins to farmers (Fake).", "prediction": "Fake", "confidence": 0.88}
+    ],
+    "Rajasthan": [
+        {"text": "Rajasthan announces free houses for all students (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Rajasthan government gives free cars to everyone (Fake).", "prediction": "Fake", "confidence": 0.88}
+    ],
+    "Sikkim": [
+        {"text": "Sikkim government provides free laptops to students (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Sikkim CM declared free gold coins for farmers (Fake).", "prediction": "Fake", "confidence": 0.87}
+    ],
+    "Tamil Nadu": [
+        {"text": "Tamil Nadu government announces free cars to senior citizens (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "CM Stalin declared free gold coins for students (Fake).", "prediction": "Fake", "confidence": 0.88}
+    ],
+    "Telangana": [
+        {"text": "Telangana announces free laptops for students (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Telangana CM gives free gold coins to farmers (Fake).", "prediction": "Fake", "confidence": 0.87}
+    ],
+    "Tripura": [
+        {"text": "Tripura government provides free smartphones to all students (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Tripura CM announced free houses to everyone (Fake).", "prediction": "Fake", "confidence": 0.88}
+    ],
+    "Uttar Pradesh": [
+        {"text": "UP government announces free laptops for all students (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "UP CM declared free gold coins for farmers (Fake).", "prediction": "Fake", "confidence": 0.88}
+    ],
+    "Uttarakhand": [
+        {"text": "Uttarakhand government gives free smartphones to students (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "Uttarakhand CM announced free houses for citizens (Fake).", "prediction": "Fake", "confidence": 0.87}
+    ],
+    "West Bengal": [
+        {"text": "West Bengal government gives free laptops to students (Fake).", "prediction": "Fake", "confidence": 0.9},
+        {"text": "WB CM announced free gold coins to farmers (Fake).", "prediction": "Fake", "confidence": 0.88}
+    ],
+    "Andaman and Nicobar": [
+        {"text": "Andaman & Nicobar CM gives free smartphones to students (Fake).", "prediction": "Fake", "confidence": 0.9}
+    ],
+    "Chandigarh": [
+        {"text": "Chandigarh government provides free laptops to citizens (Fake).", "prediction": "Fake", "confidence": 0.9}
+    ],
+    "Dadra and Nagar Haveli": [
+        {"text": "Dadra & Nagar Haveli gives free houses to students (Fake).", "prediction": "Fake", "confidence": 0.9}
+    ],
+    "Daman and Diu": [
+        {"text": "Daman & Diu announces free smartphones for all (Fake).", "prediction": "Fake", "confidence": 0.9}
+    ],
+    "Delhi": [
+        {"text": "Delhi government gives free laptops to students (Fake).", "prediction": "Fake", "confidence": 0.9}
+    ],
+    "Jammu and Kashmir": [
+        {"text": "J&K CM announces free cars to citizens (Fake).", "prediction": "Fake", "confidence": 0.9}
+    ],
+    "Ladakh": [
+        {"text": "Ladakh government provides free gold coins to students (Fake).", "prediction": "Fake", "confidence": 0.9}
+    ],
+    "Puducherry": [
+        {"text": "Puducherry CM announced free laptops for all students (Fake).", "prediction": "Fake", "confidence": 0.9}
+    ],
+    "General": [
+        {"text": "General fake news example for India.", "prediction": "Fake", "confidence": 0.9}
+    ]
+}
