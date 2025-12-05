@@ -1,50 +1,144 @@
-# Welcome to your Expo app 👋
+# 🚀 Truescope
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[![React Native](https://img.shields.io/badge/React_Native-0.72-blue)](https://reactnative.dev/) 
+[![Django](https://img.shields.io/badge/Django-4.2-green)](https://www.djangoproject.com/) 
+[![Python](https://img.shields.io/badge/Python-3.11-yellow)](https://www.python.org/) 
+[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
-## Get started
+**Truescope** is an **AI-powered news verification app** using a **hybrid approach** combining machine learning, NLP, and geospatial visualization to detect fake news and provide educational insights.  
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 📌 Table of Contents
 
-2. Start the app
+- [Project Overview](#project-overview)  
+- [Features](#features)  
+- [Technology Stack](#technology-stack)    
+- [Installation & Setup](#installation--setup)  
+- [Usage](#usage)  
+- [Screenshots / Demo](#screenshots--demo)  
+- [API Endpoints](#api-endpoints)  
+- [Future Enhancements](#future-enhancements)  
+- [Contributing](#contributing)  
+- [License](#license)  
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🌟 Project Overview
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Truescope helps users **detect fake news** and **understand the credibility** of information. It allows users to paste news text and get:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- ✅ Real vs Fake prediction  
+- 📊 Confidence scores  
+- 🗺️ State-wise news credibility map  
+- 📰 Sources & snippets  
+- 🎓 Educational tips for verifying news  
 
-## Get a fresh project
+**Hybrid AI Approach:**  
 
-When you're ready, run:
+1. **Machine Learning Model:** NLP-based news classification.  
+2. **Geospatial Visualization:** State-wise map using React Native Maps and GeoJSON.  
+3. **Educational Insights:** Tips for verifying news.  
 
+---
+
+## ✨ Features
+
+- Submit news text for verification  
+- Get **prediction label** (Real / Fake) and **confidence score**  
+- **State-wise map visualization** of news credibility  
+- Click on any state to view **state-specific news analysis**  
+- Display **news sources** and snippets  
+- Show **educational tips** for news verification  
+- Fully functional **React Native mobile app** for Android/iOS  
+
+---
+
+## 🛠 Technology Stack
+
+| Layer | Technology / Library |
+|-------|--------------------|
+| Frontend | React Native, Expo, TypeScript |
+| Backend | Django REST Framework, Python |
+| Machine Learning | HuggingFace Transformers / Custom NLP Models |
+| Maps | react-native-maps, GeoJSON polygons |
+| HTTP Requests | Axios |
+| Navigation | React Navigation |
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
 ```bash
-npm run reset-project
-```
+git clone https://github.com/yourusername/truescope.git
+cd truescope
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Install dependencies:
+npm install
+# or
+yarn install
 
-## Learn more
+3. Start Expo development server:
+expo start
 
-To learn more about developing your project with Expo, look at the following resources:
+4. Ensure backend Django server is running and update BASE_URL in:
+NewsScreen.tsx
+NewsResultScreen.tsx
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+5. Run app on Android/iOS device using Expo Go.
 
-## Join the community
+##📝 Usage
 
-Join our community of developers creating universal apps.
+1. Launch app on device.
+2. Sign up / Login.
+3. Go to News Verification.
+4. Paste news text → Click Submit.
+5. View prediction, confidence, sources, and state-wise map.
+6. Tap on any state polygon for state-specific news insights.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📷 Screenshots / Demo
+
+You can upload a demo video or GIF in the repository:
+> Replace the GIF with your actual demo video.
+
+## 🔗 API Endpoints
+
+POST /api/check-news/ → Predict news credibility
+GET /api/map-data/ → Fetch state-wise news status
+
+Request Example:
+
+{
+  "text": "Sample news text here",
+  "lang": "en"
+}
+
+Response Example:
+
+{
+  "prediction": { "label": "Real", "confidence": 0.92 },
+  "input": { "original": "Sample news text here" },
+  "state": "Tamil Nadu",
+  "explanation": "Model explanation here...",
+  "sources": [
+    { "publisher": "News Source", "snippet": "Snippet text", "url": "https://..." }
+  ],
+  "education": ["Check source credibility", "Cross verify with other platforms"]
+}
+
+## 🔮 Future Enhancements
+
+Deploy backend and app for public access
+Multi-language support
+Advanced AI models for contextual fake news detection
+Push notifications for trending fake news
+User feedback system to improve AI accuracy
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a branch: git checkout -b feature-name
+3. Make changes & commit: git commit -m "Add feature"
+4. Push: git push origin feature-name
+5. Open a Pull Request
+
+
