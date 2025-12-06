@@ -270,7 +270,7 @@ Violation of these terms may result in legal action.
 
 - **Sangamithra D** – Backend & AI/ML Developer  
 - **Yuvarani R** – Frontend Developer
-  https://github.com/princess2003-githu .git
+  https://github.com/princess2003-github.git
 - **Swetha M** – Data Analytics & Data Processing
   https://github.com/svaecse.git
   
