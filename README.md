@@ -69,7 +69,7 @@ Truescope helps users **detect fake news** and **understand the credibility** of
 
 1️⃣ **Clone the Repository**
 
-git clone https://github.com/sangamithra D/truescope.git
+git clone https://github.com/sangamithraD/TrueScope.git
 cd truescope
 
 2️⃣ **Install Dependencies**
@@ -270,9 +270,9 @@ Violation of these terms may result in legal action.
 
 - **Sangamithra D** – Backend & AI/ML Developer  
 - **Yuvarani R** – Frontend Developer
-  https//github.com/princess2003-githu .git
+  https://github.com/princess2003-githu .git
 - **Swetha M** – Data Analytics & Data Processing
-  https//github.com/svaecse.git
+  https://github.com/svaecse.git
   
 ## ✅ Project Vision  
 
