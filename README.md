@@ -75,7 +75,7 @@ cd truescope
 2️⃣ **Install Dependencies**
 
 npm install
-# or
+or
 yarn install
 
 3️⃣ **Start Expo Development Server**
@@ -116,7 +116,7 @@ const BASE_URL = "http://YOUR_LOCAL_IP:8000";
    - Explanation
    - Verified Sources
    - State-wise risk on map
-   - 
+    
 7. Tap any state polygon to view state-specific insights
 
 ## 🔗 API Endpoints
@@ -128,21 +128,27 @@ const BASE_URL = "http://YOUR_LOCAL_IP:8000";
 **Request:**
 
 {
+
   "text": "Sample news text here",
   "lang": "en"
+  
 }
 
 **Response:**
 
 {
-  "prediction": { "label": "Real", "confidence": 0.92 },
+  "prediction": { "label": "Real",     "confidence": 0.92 },
+  
   "input": { "original": "Sample news text here" },
-  "state": "Tamil Nadu",
+  
   "explanation": "Model explanation here...",
+  
   "sources": [
     { "publisher": "News Source", "snippet": "Snippet text", "url": "https://..." }
   ],
+  
   "education": ["Check source credibility", "Cross verify with other platforms"]
+  
 }
 
 ✅ **Fetch State-Wise Map Data**
@@ -154,8 +160,11 @@ Returns dynamic state-wise verification severity used for color mapping.
 **🗺️ Map Color Legend**
 
 Color| Meaning
+
 🔴 Red| High Fake News Risk
+
 🟡 Yellow| Moderate Risk
+
 🟢 Green| Low Risk
 
 ✅ **Fetch State Based News**
@@ -172,7 +181,9 @@ GET "api/state-news/Kerala/"
 
 {
  "News":"Kerala is the largest state in India",
+ 
  "Prediction":"Fake",
+ 
  "Confidence" :"0.26"
  }
 
@@ -259,10 +270,8 @@ Violation of these terms may result in legal action.
 
 - **Sangamithra D** – Backend & AI/ML Developer  
 - **Yuvarani R** – Frontend Developer
-  https//github.com/princess-2033-github/
 - **Swetha M** – Data Analytics & Data Processing
-  https//github.com/svaecse/
-
+  
 ## ✅ Project Vision  
 
 **TrueScope – Fighting Fake News with Artificial Intelligence**  
