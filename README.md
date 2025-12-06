@@ -67,52 +67,66 @@ Truescope helps users **detect fake news** and **understand the credibility** of
 
 ## ⚙️ Installation & Setup
 
-1. Clone the repository:
-```bash
+1️⃣ **Clone the Repository**
+
 git clone https://github.com/yourusername/truescope.git
 cd truescope
 
-2. Install dependencies:
+2️⃣ **Install Dependencies**
+
 npm install
 # or
 yarn install
 
-3. Start Expo development server:
+3️⃣ **Start Expo Development Server**
+
 expo start
 
-4. Ensure backend Django server is running and update BASE_URL in:
-NewsScreen.tsx
-NewsResultScreen.tsx
+4️⃣ **Backend Configuration**
 
-5. Run app on Android/iOS device using Expo Go.
+Ensure your Django backend is running, and update "BASE_URL" in:
 
-##📝 Usage
+- "NewsScreen.tsx"
+- "NewsResultScreen.tsx"
 
-1. Launch app on device.
-2. Sign up / Login.
-3. Go to News Verification.
-4. Paste news text → Click Submit.
-5. View prediction, confidence, sources, and state-wise map.
-6. Tap on any state polygon for state-specific news insights.
+**Example:**
+const BASE_URL = "http://YOUR_LOCAL_IP:8000";
 
-## 📷 Screenshots / Demo
+5️⃣ **Run on Mobile**
 
-You can upload a demo video or GIF in the repository:
-> Replace the GIF with your actual demo video.
+- Install Expo Go on your mobile
+- Scan the QR code from terminal
+- App will load instantly
+  
+## 📝 Usage Guide
+
+-1. Launch the app on your device
+-2. Login or Signup
+-3. Open News Verification screen
+-4. Paste any news content
+-5. Tap Submit
+-6. View:
+   - Prediction Result
+   - Confidence Score
+   - Explanation
+   - Verified Sources
+   - State-wise risk on map
+-7. Tap any state polygon to view state-specific insights
 
 ## 🔗 API Endpoints
 
-POST /api/check-news/ → Predict news credibility
-GET /api/map-data/ → Fetch state-wise news status
+✅ **Check News Credibility**
 
-Request Example:
+**POST "/api/check-news/"**
+
+**Request:**
 
 {
   "text": "Sample news text here",
   "lang": "en"
 }
 
-Response Example:
+**Response:**
 
 {
   "prediction": { "label": "Real", "confidence": 0.92 },
@@ -125,20 +139,132 @@ Response Example:
   "education": ["Check source credibility", "Cross verify with other platforms"]
 }
 
+✅ **Fetch State-Wise Map Data**
+
+**GET "/api/map-data/"**
+
+Returns dynamic state-wise verification severity used for color mapping.
+
+**🗺️ Map Color Legend**
+
+Color| Meaning
+🔴 Red| High Fake News Risk
+🟡 Yellow| Moderate Risk
+🟢 Green| Low Risk
+
+✅ **Fetch State Based News**
+
+**GET "/api/state-news/<str:state-name>/"**
+
+Returns the fake news in the particular state you tap.
+
+**request:**
+
+GET "api/state-news/Kerala/"
+
+**response:**
+
+{
+ "News":"Kerala is the largest state in India",
+ "Prediction":"Fake",
+ "Confidence" :"0.26"
+ }
+
+ ## 📷 Demo & Screenshots
+
+🎥 A full demo video will be uploaded directly inside the repository.
+
+«No public deployment URLs are available as this project currently runs on a local development environment.»
+
+## 🚫 Deployment Status
+
+- ❌ Not deployed to production yet
+- ✅ Fully working on:
+   - Localhost
+   - Local network
+   - Expo Go testing
+
 ## 🔮 Future Enhancements
 
-Deploy backend and app for public access
-Multi-language support
-Advanced AI models for contextual fake news detection
-Push notifications for trending fake news
-User feedback system to improve AI accuracy
+- Public cloud deployment
+- Multi-language verification
+- Advanced deep learning models (BERT / Transformers)
+- Push notifications for trending fake news
+- Admin analytics dashboard
+- Social media fake news monitoring
+- Browser extension version
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create a branch: git checkout -b feature-name
-3. Make changes & commit: git commit -m "Add feature"
-4. Push: git push origin feature-name
-5. Open a Pull Request
+1. **Fork the repository**
+2. **Create a new branch**
 
+git checkout -b feature-name
+
+3. **Commit your changes**
+
+git commit -m "Added new feature"
+
+4. **Push to your branch**
+
+git push origin feature-name
+
+5. **Create a Pull Request**
+
+---
+
+## 🔒 Access & Usage Restriction  
+
+This repository is intended **only for academic evaluation, hackathon review, and placement demonstration purposes**.  
+
+❌ Unauthorized copying, redistribution, modification, or commercial use of this project is **strictly prohibited** without prior written permission from the TrueScope Development Team.
+
+✅ Limited access may be granted only to:
+- Project evaluators  
+- Hackathon jury members  
+- Recruiters & placement reviewers  
+
+All rights are reserved by the TrueScope Development Team.
+
+
+## 📜 License  
+
+This project is released under a **Restricted Proprietary License**.  
+© 2025 **TrueScope**
+
+✅ You may:
+- View the project for learning and evaluation purposes  
+- Run the application locally for demo and academic use  
+
+❌ You may NOT:
+- Copy or reuse the source code  
+- Redistribute the application  
+- Use it for commercial products  
+- Publish modified versions  
+
+Violation of these terms may result in legal action.
+
+## 👨‍💻 Developed By  
+
+**TrueScope Development Team**  
+*AI | Full Stack | Mobile App Development*
+
+### Team Members
+
+- **Sangamithra D** – Backend & AI/ML Developer  
+- **Yuvarani R** – Frontend Developer
+  https//github.com/yu  
+- **Swetha M** – Data Analytics & Data Processing
+  https//github.com/
+
+## ✅ Project Vision  
+
+**TrueScope – Fighting Fake News with Artificial Intelligence**  
+
+TrueScope is designed to:
+- Detect fake news using a **Hybrid AI approach**
+- Analyze state-wise credibility patterns  
+- Provide verified news sources  
+- Improve digital media awareness  
+- Help users make informed decisions  
 
