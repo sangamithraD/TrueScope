@@ -100,18 +100,24 @@ const BASE_URL = "http://YOUR_LOCAL_IP:8000";
   
 ## 📝 Usage Guide
 
--1. Launch the app on your device
--2. Login or Signup
--3. Open News Verification screen
--4. Paste any news content
--5. Tap Submit
--6. View:
+1. Launch the app on your device
+
+2. Login or Signup
+
+3. Open News Verification screen
+
+4. Paste any news content
+
+5. Tap Submit
+
+6. View:
    - Prediction Result
    - Confidence Score
    - Explanation
    - Verified Sources
    - State-wise risk on map
--7. Tap any state polygon to view state-specific insights
+   - 
+7. Tap any state polygon to view state-specific insights
 
 ## 🔗 API Endpoints
 
@@ -253,9 +259,9 @@ Violation of these terms may result in legal action.
 
 - **Sangamithra D** – Backend & AI/ML Developer  
 - **Yuvarani R** – Frontend Developer
-  https//github.com/yu  
+  https//github.com/princess-2033-github/
 - **Swetha M** – Data Analytics & Data Processing
-  https//github.com/
+  https//github.com/svaecse/
 
 ## ✅ Project Vision  
 
